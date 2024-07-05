@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:#f6e2d1;
+    font-family: 'poppins', sans-serif;
+    padding: 50px;
+}
+
+/* Style Navbar */
+nav {
+    background-image: url(gambar/baground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;     
+    height: 530px;
+    color: rgb(255, 255, 255);
+}
+
+.isi-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px 10px 70px; /*Top|Right|Bottom|Left*/
+    text-transform: uppercase;
+    word-spacing: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+    background-color: #927a66;
+    color: hsl(23, 5%, 13%);
+    font-weight: 700;
+}
+
+.content-background {
+    margin-top: 70px;
+    padding-left: 110px;
+    color: #ffffff;
+}
+
+#h3-baground {
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+#h2-background {
+    font-size: 35px;
+    margin: 5px 0px; /* top and bottom */
+    line-height: 50px;
+}
+
+#p-background {
+    width: 120px;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+/*Style Icon*/
+.list-icons, .menu-coffe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-icons {
+    width: 50px;
+    margin: 30px 50px 0px 50px; /*top|right|bottom|left*/
+}
+
+.p-icons, #p-shop {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Style Menu */    
+.menu {
+    background-color: #f9f6f6;
+    margin-top: 10px;
+    padding: 10px 0px 50px; /*top|left and right|bottom */
+}
+
+.h2-menu {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.list-coffe {
+    padding: 5px 5px 0px; /*top|left & right|buttom*/ 
+    margin: 0px 20px; /*top and bottom | left and right*/;
+    background-color:#ede9e9;
+}
+
+.img-menu {
+    width: 190px;
+    border-radius: 6px;
+}
+
+.p-menu{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h5 {
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Style About */
+.content-about {
+    display: flex;
+    justify-content: space-between;
+    background-color:#f5e7de;
+}
+
+.img-about, .img-shop{
+    width: 240px;
+}
+
+#h2-about {
+    margin: 35px 0px 0px; /*top |left and right|bottom */
+    font-size: 33px;
+}
+
+#p-about {
+    background-color: hsl(0, 0%, 0%);
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 50px;
+    width: 160px;
+    padding: 10px;
+}
+
+/* Style Ulasan */
+#Testimoni {
+    background-color: #f9f6f6;
+    padding: 10px 10px 30px;
+    text-align: center;
+}
+
+.img-ulasan {
+    width: 330px;
+    margin: 0px 10px; /*top and bottom|left and right*/
+}
+
+#h3-ulasan {
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#h2-ulasan {
+    font-size: 20px;
+}
+
+/* Style Shop */
+.content-shop, .from {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-shop {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 8px;
+}
+
+input {
+    margin-top: 10px;
+    padding-left: 20px;
+    border-radius: 50px;
+    background-color: hsv(0, 0%, 100%);
+    width: 350px;
+    height: 35px;
+}
+
+#h3-shop {
+    background-color: black;
+    border-radius: 50px;
+    width: 100px;
+    padding:14px 10px; /* Top & buttom|left & right*/
+    margin: 10px 0px 0px 30px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*Style Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #292422;
+    color: hsl(0, 0%, 100%);
+    padding: 20px 90px 20px 50px;
+}
+
+.content-footer {
+    font-size: 7px;
+    line-height: 20px;
+}
+
+.h3-footer {
+    font-size: 13px;
+}
+
+.icons {
+    width: 15px;
+    margin-right: 10px;
+}
